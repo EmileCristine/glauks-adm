@@ -1,0 +1,25 @@
+.gridConteiner {
+    background-color:  rgb(34, 34, 34);
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 75px 1fr;
+    grid-template-areas: 
+        'lateral cabecalho'
+        'lateral conteudo'
+}
+
+header {
+    grid-area: cabecalho;
+    background-color: #fff;
+}
+
+aside {
+    grid-area: lateral;
+}
+
+main {
+    grid-area: conteudo;
+    background-color: #fff;
+}

@@ -1,0 +1,144 @@
+section {
+    background-color: #0d0d00;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoImg{
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: -40px;
+}
+
+span{
+    font-size: 13px;
+    color: #0d0d00;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #0d0d00;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.opc {
+    border-bottom: solid 3px #01babf ;
+    text-transform: uppercase;
+}
+
+.opcLog{
+    text-transform: uppercase;
+    font-weight: normal; 
+    color: #0d0d00;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.opcLog:hover {
+    color: #0d0d00; 
+}
+
+.campo{
+    background-color: #f7f7f7;
+    border-radius: 21px;
+    padding: 8px;
+    border-style: none;
+    color: #0d0d00;
+    font-size: 12px;
+}
+
+.enter{
+    margin-top: 25px;
+    border-radius: 35px;
+    background-color: #01babf;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.enter:hover:not(:disabled) {
+    background-color: #05a5b1;
+}
+
+.enter:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.erro {
+    color: #d32f2f;
+    font-size: 11px;
+    margin: 2px 0 8px 0; 
+    font-weight: 500;
+    min-height: 16px; 
+}
+
+.senhaContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+ 
+.campoSenha {
+    background-color: #f7f7f7;
+    border-radius: 21px;
+    padding: 8px;
+    border-style: none;
+    color: #0d0d00;
+    font-size: 12px;
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+.eyeSenha {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 50%;
+    color: #01babf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  
+.eyeSenha:hover:not(:disabled) {
+    color: #05a5b1;
+  }
+  
+.eyeSenha:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }

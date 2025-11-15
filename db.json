@@ -1,0 +1,156 @@
+{
+  "emprestimos": [
+    {
+      "id": "1",
+      "titulo": "Declínio de um Homem",
+      "usuario": "Julia",
+      "emailUsuario": "julia@email.com",
+      "capa": "/assets/images/declinio.jpg",
+      "dataEmprestimo": "2025-05-23",
+      "dataDevolucao": "",
+      "dataDevolucaoEsperada": "2025-06-30",
+      "status": "emprestado",
+      "autor": "Osamu Dazai",
+      "isbn": "978-85-359-0277-2"
+    },
+    {
+      "id": "2",
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "usuario": "Emile",
+      "emailUsuario": "emile@email.com",
+      "capa": "/assets/images/bras.jpg",
+      "dataEmprestimo": "2025-05-27",
+      "dataDevolucao": "2025-09-19",
+      "dataDevolucaoEsperada": "2025-06-01",
+      "status": "devolvido",
+      "autor": "Machado de Assis",
+      "isbn": "978-85-250-1234-5"
+    },
+    {
+      "id": "3",
+      "titulo": "O Retrato de Dorian Gray",
+      "usuario": "Zoe",
+      "emailUsuario": "zoe@email.com",
+      "capa": "/assets/images/dorian.jpg",
+      "dataEmprestimo": "2025-05-27",
+      "dataDevolucao": "2025-09-19",
+      "dataDevolucaoEsperada": "2025-06-03",
+      "status": "devolvido",
+      "autor": "Oscar Wilde",
+      "isbn": "978-85-250-5678-9"
+    },
+    {
+      "id": "4",
+      "titulo": "Noites Brancas",
+      "usuario": "Julia",
+      "emailUsuario": "julia@email.com",
+      "capa": "/assets/images/noites.jpg",
+      "dataEmprestimo": "2025-04-15",
+      "dataDevolucao": "",
+      "dataDevolucaoEsperada": "2025-05-15",
+      "status": "atrasado",
+      "autor": "Fiódor Dostoiévski",
+      "isbn": "978-85-250-9012-3"
+    },
+    {
+      "id": "5",
+      "titulo": "O Morro dos Ventos Uivantes",
+      "usuario": "Emile",
+      "emailUsuario": "emile@email.com",
+      "capa": "/assets/images/morro.jpg",
+      "dataEmprestimo": "2025-04-17",
+      "dataDevolucao": "",
+      "dataDevolucaoEsperada": "2025-05-17",
+      "status": "atrasado",
+      "autor": "Emily Brontë",
+      "isbn": "978-85-250-3456-7"
+    },
+    {
+      "id": "6",
+      "titulo": "Psicose",
+      "usuario": "Zoe",
+      "emailUsuario": "zoe@email.com",
+      "capa": "/assets/images/psicose.jpg",
+      "dataEmprestimo": "2025-04-19",
+      "dataDevolucao": "",
+      "dataDevolucaoEsperada": "2025-05-19",
+      "status": "atrasado",
+      "autor": "Robert Bloch",
+      "isbn": "978-85-250-7890-1"
+    },
+    {
+      "id": "cf4b",
+      "titulo": "ddgdg",
+      "usuario": "dghgfds",
+      "emailUsuario": "sdfgh@gmail.com",
+      "capa": "https://via.placeholder.com/150x200?text=Sem+Capa",
+      "autor": "",
+      "dataDevolucao": "2025-09-19",
+      "dataDevolucaoEsperada": "2025-10-08",
+      "isbn": "",
+      "dataEmprestimo": "2025-09-19",
+      "status": "devolvido"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "1",
+      "titulo": "The Setting Sun",
+      "usuario": "Ana",
+      "emailUsuario": "ana@email.com",
+      "capa": "/assets/images/sun.jpg",
+      "dataReserva": "2025-05-25",
+      "status": "pendente",
+      "autor": "Osamu Dazai",
+      "isbn": "978-85-250-1111-2"
+    },
+    {
+      "id": "2",
+      "titulo": "Relatos de Um Gato",
+      "usuario": "Carlos",
+      "emailUsuario": "carlos@email.com",
+      "capa": "/assets/images/gato.jpg",
+      "dataReserva": "2025-05-26",
+      "status": "cancelada",
+      "autor": "Natsume Soseki",
+      "isbn": "978-85-250-2222-3"
+    },
+    {
+      "id": "3",
+      "titulo": "Tudo é Rio",
+      "usuario": "Maria",
+      "emailUsuario": "maria@email.com",
+      "capa": "/assets/images/rio.jpg",
+      "dataReserva": "2025-05-27",
+      "status": "cancelada",
+      "autor": "Carla Madeira",
+      "isbn": "978-85-250-3333-4"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Julia",
+      "email": "julia@email.com",
+      "telefone": "(11) 99999-1111",
+      "endereco": "Rua das Flores, 123",
+      "dataCadastro": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "nome": "Emile",
+      "email": "emile@email.com",
+      "telefone": "(11) 99999-2222",
+      "endereco": "Av. Paulista, 456",
+      "dataCadastro": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "nome": "Zoe",
+      "email": "zoe@email.com",
+      "telefone": "(11) 99999-3333",
+      "endereco": "Rua Augusta, 789",
+      "dataCadastro": "2024-03-10"
+    }
+  ]
+}

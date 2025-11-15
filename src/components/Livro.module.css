@@ -1,0 +1,45 @@
+/* Livro.module.css */
+
+.capa {
+    width: 125px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.capa:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilo para estado de erro no componente Livro */
+.erro {
+    width: 125px;
+    height: 180px;
+    background-color: #ffebee;
+    color: #c62828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Placeholder para imagem que não carrega */
+.capa[src="/placeholder-book.jpg"] {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 0.6rem;
+}
+
+.capa[src="/placeholder-book.jpg"]::before {
+    content: "Sem imagem";
+}
