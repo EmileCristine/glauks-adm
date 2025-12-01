@@ -30,7 +30,7 @@ A implementação deste módulo visa otimizar a rotina dos funcionários e minim
 
 | Reservas e Empréstimos |
 | :---: |
-| <img src="telas/emprestimos.png" alt="Reservas e Empréstimos" width="350"/> |
+| <img src="telas/emprestimos.png" alt="Reservas e Empréstimos" width="370"/> |
 ---
 
 ## 🛠️ `Tecnologias Utilizadas`
@@ -59,6 +59,7 @@ A implementação deste módulo visa otimizar a rotina dos funcionários e minim
 *Emile Cristine Gomes Nogueira*
 
 *Julia de Melo Romo Franco*
+
 
 
 
