@@ -22,15 +22,15 @@ A implementação deste módulo visa otimizar a rotina dos funcionários e minim
 
 | Tela de Login | Tela de Cadastro |
 | :---: | :---: |
-| <img src="telas/login.png" alt="Tela de Login" width="800"/> | <img src="telas/cadastro.png" alt="Tela de Cadastro" width="800"/> | 
+| <img src="telas/login.png" alt="Tela de Login" width="500"/> | <img src="telas/cadastro.png" alt="Tela de Cadastro" width="500"/> | 
 
 | Adicionar Livro | Catálogo |
 | :---: | :---: |
-| <img src="telas/addlivro.png" alt="Adicionar Livro" width="976"/> | <img src="telas/catalogo.png" alt="Catálogo" width="1000"/> | 
+| <img src="telas/addlivro.png" alt="Adicionar Livro" width="500"/> | <img src="telas/catalogo.png" alt="Catálogo" width="500"/> | 
 
 | Reservas e Empréstimos |
 | :---: |
-| <img src="telas/addlivro.png" alt="Reservas e Empréstimos" width="474"/> |
+| <img src="telas/addlivro.png" alt="Reservas e Empréstimos" width="500"/> |
 ---
 
 ## 🛠️ `Tecnologias Utilizadas`
@@ -59,3 +59,4 @@ A implementação deste módulo visa otimizar a rotina dos funcionários e minim
 *Emile Cristine Gomes Nogueira*
 
 *Julia de Melo Romo Franco*
+
