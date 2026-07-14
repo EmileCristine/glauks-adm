@@ -1,21 +1,21 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getDatabase } from 'firebase/database';
+import { initializeApp } from "firebase/app"
+import { getAuth } from "firebase/auth"
+import { getDatabase } from 'firebase/database'
 
 const firebaseConfig = {
-  apiKey: import.env.VITE_FIREBASE_API_KEY,
-  authDomain: "projeto-glauks.firebaseapp.com",
-  databaseURL: "https://projeto-glauks-default-rtdb.firebaseio.com",
-  projectId: "projeto-glauks",
-  storageBucket: "projeto-glauks.firebasestorage.app",
-  messagingSenderId: "810784881705",
-  appId: "1:810784881705:web:a71832a2159cef73943038"
-};
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
+}
 
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig)
 
-export const auth = getAuth(app);
+export const auth = getAuth(app)
 
-export const db = getDatabase(app);
+export const db = getDatabase(app)
 
-export default app;
+export default app
