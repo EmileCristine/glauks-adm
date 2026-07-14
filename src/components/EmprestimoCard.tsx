@@ -97,7 +97,7 @@ const getLivroDisponivel = useCallback((livroId: string) => {
       ${estaAtrasado ? estilos.atrasado : ''}
     `}>
       <img 
-        src={emprestimo.capa} 
+        src={emprestimo.capa || '/placeholder-capa.png'} 
         alt={emprestimo.titulo} 
         className={estilos.capa}
         onError={(e) => {
@@ -117,7 +117,7 @@ const getLivroDisponivel = useCallback((livroId: string) => {
           </p>
           
           <p className={estilos.data}>
-            <strong>Devolução esperada:</strong> {formatarData(emprestimo.dataDevolucaoEsperada)}
+            <strong>Devolução até:</strong> {formatarData(emprestimo.dataDevolucaoEsperada)}
           </p>
 
         </div>
@@ -167,7 +167,7 @@ const getLivroDisponivel = useCallback((livroId: string) => {
 }
 
 export function ReservaCard({ reserva }: ReservaCardProps) {
-  const { cancelarReserva, aprovarReserva, rejeitarReserva } = useEmprestimo();
+  const { cancelarReserva, aprovarReserva } = useEmprestimo();
 
   const formatarData = (data: string) => {
     try {
@@ -204,7 +204,7 @@ export function ReservaCard({ reserva }: ReservaCardProps) {
       ${reserva.status === 'rejeitada' ? estilos.reservaRejeitada : ''}
     `}>
       <img 
-        src={reserva.capa} 
+        src={reserva.capa || '/placeholder-capa.png'} 
         alt={reserva.titulo} 
         className={estilos.capa}
         onError={(e) => {

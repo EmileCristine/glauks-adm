@@ -6,7 +6,6 @@
     margin: 0;
     padding: 20px;
     overflow-y: scroll;
-    overflow-x: hidden;
     background-color: #fff;
     scrollbar-width: none;
     gap: 10px;
@@ -178,6 +177,7 @@
 
 .btnNotificar {
     background: #e74c3c;
+
 }
 
 .btnNotificar:hover {
