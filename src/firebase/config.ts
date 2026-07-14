@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "process.env.VITE_FIREBASE_API_KEY",
+  apiKey: import.env.VITE_FIREBASE_API_KEY,
   authDomain: "projeto-glauks.firebaseapp.com",
   databaseURL: "https://projeto-glauks-default-rtdb.firebaseio.com",
   projectId: "projeto-glauks",
