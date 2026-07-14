@@ -6,10 +6,10 @@ class MigrationService {
     try {
       console.log('Iniciando migração para novo sistema de disponibilidade...');
       
-      // Sincronizar disponibilidade baseada nos empréstimos atuais
+      // Sincroniza disponibilidade baseada nos empréstimos atuais
       await emprestimoService.sincronizarDisponibilidade();
       
-      // Verificar e corrigir status de atraso
+      // Verifica e corrige status de atraso
       await emprestimoService.verificarEAtualizarAtrasados();
       
       console.log('Migração concluída com sucesso!');
@@ -26,7 +26,7 @@ class MigrationService {
       const emprestimos = await emprestimoService.getEmprestimos();
       const controle = await emprestimoService.getControleDisponibilidade();
       
-      // Verificar empréstimos marcados como devolvidos mas sem data de devolução
+      // Verifica empréstimos marcados como devolvidos mas sem data de devolução
       const emprestimosInconsistentes = emprestimos.filter(e => 
         e.status === 'devolvido' && !e.dataDevolucao
       );
@@ -35,7 +35,7 @@ class MigrationService {
         inconsistencias.push(`${emprestimosInconsistentes.length} empréstimos marcados como devolvidos sem data de devolução`);
       }
       
-      // Verificar controle de disponibilidade inconsistente
+      // Verifica controle de disponibilidade inconsistente
       for (const item of controle) {
         if (item.quantidadeDisponivel < 0) {
           inconsistencias.push(`Quantidade disponível negativa para ${item.titulo}`);
