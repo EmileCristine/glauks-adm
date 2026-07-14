@@ -78,7 +78,7 @@ export function Login() {
           </div>
         </div>
 
-        <span>Usuário</span>
+        <span>Email</span>
         <input 
           {...register('email')}
           className={estilos.campo} 
